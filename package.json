@@ -1,0 +1,27 @@
+{
+  "name": "sport-store-server",
+  "version": "0.1.0",
+  "description": "Tienda deportiva en linea",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "store",
+    "sport",
+    "sport",
+    "accesories",
+    "football",
+    "basketball",
+    "baseball",
+    "slackline"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
