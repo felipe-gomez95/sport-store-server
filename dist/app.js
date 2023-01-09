@@ -5,8 +5,13 @@ var express = require("express");
 var dbConection = require("./conectDB");
 var router = require("./routes/index.routes");
 var path = require("path");
+var cors = require("cors");
 dbConection();
 var app = express();
+app.use(cors({
+  origin: "*",
+  optionsSuccessStatus: 200
+}));
 app.use(express.urlencoded({
   extended: false
 }));
